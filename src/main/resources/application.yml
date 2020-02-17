@@ -1,0 +1,14 @@
+server:
+  context-path: /user
+  port: 8102
+spring:
+  application:
+    name: logger
+  data:
+    mongodb:
+      authentication-database: ${LOGGER_MONGO_AUTH_DB}
+      database: ${LOGGER_MONGO_DB}
+      host: localhost
+      password: ${LOGGER_MONGO_PASS}
+      port: 27017
+      username: ${LOGGER_MONGO_USER}
