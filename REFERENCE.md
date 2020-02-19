@@ -117,4 +117,4 @@ In the below examples, document type is one of `logs`, `stations`, or `contacts`
 
 > **Returns** 200 OK if the document is deleted successfully. A call to delete a log or station will also delete contacts that reference the document’s ID.
 
-> **Error 404** If the document is not found with the specified ID.
+> **404 Error** If the document is not found with the specified ID.
