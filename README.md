@@ -8,7 +8,7 @@ After spending some time with the project, I'm less certain this approach is the
 
 ## Getting Started
 
-- Clone the repository with `git clone https://gitlab.com/s.mcleodjr/k3gds-logger.git; cd k3gds-logger`.
+- Clone the repository with `git clone https://github.com/scottmcleodjr/k3gds-logger.git; cd k3gds-logger`.
 - Setup a Mongo database for the logger to store contacts in.
 - Configure the MongoDB host and authentication information in the src/main/resources/application.yml file.  I have used environment variables for these settings during development, which you will see in the file.
 - Build the project with `mvn package`.
